@@ -27,9 +27,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "build": "react-scripts build",
     "prepare": "npm link bs-platform",
     "watch": "bsb -make-world -clean-world -w",
     "get-schema": "send-introspection-query http://localhost:4000"

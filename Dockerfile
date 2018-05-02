@@ -5,6 +5,7 @@ WORKDIR /usr/src/app
 COPY package.json yarn.lock ./
 RUN yarn
 COPY . ./
+RUN npm link bs-platform
 RUN yarn build
 
 FROM nginx:1.13.12-alpine
