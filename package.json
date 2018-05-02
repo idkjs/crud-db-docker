@@ -29,7 +29,7 @@
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "build": "bsb -make-world -clean-world",
+    "build": "react-scripts build",
     "prepare": "npm link bs-platform",
     "watch": "bsb -make-world -clean-world -w",
     "get-schema": "send-introspection-query http://localhost:4000"
